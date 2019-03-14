@@ -1,0 +1,49 @@
+@import '../../style/variables';
+
+.contacts {
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &__item {
+    display: flex;
+    flex-basis: 25%;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+
+    &:hover {
+      svg {
+        transform: translateY(-5px);
+      }
+    }
+
+    @media ($tablet) {
+      flex-basis: 33.3333333%;
+    }
+
+    @media (max-width: 768px) {
+      flex-basis: 50%;
+      margin-bottom: 10px;
+    }
+
+    @media ($mobile) {
+      flex-basis: 100%;
+    }
+  }
+
+  &__svg {
+    width: 35px;
+    height: 35px;
+    margin-right: 5px;
+
+    svg {
+      fill: $color-accent;
+      width: 35px;
+      height: 35px;
+    }
+  }
+}

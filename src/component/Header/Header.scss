@@ -1,0 +1,71 @@
+@import '../../style/variables';
+
+header {
+  background-color: $color-bgc;
+  position: sticky;
+  top: 0;
+}
+
+.header {
+  padding: 15px 0;
+  color: white;
+  box-shadow: 0 0 10px white;
+  z-index: 1;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    color: $color-accent;
+    font-family: Bad Script, cursive;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1;
+  }
+
+  &__nav {
+    ul {
+      display: flex;
+      font-size: 22px;
+    }
+
+    ul li {
+      margin-left: 30px;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+
+      &:hover {
+        color: $color-accent;
+      }
+    }
+  }
+
+  @media ($mobile) {
+    .container{
+      flex-direction: column;
+    }
+
+    &__logo{
+      font-size: 25px;
+      margin-bottom: 10px;
+    }
+
+    &__nav{
+      width: 100%;
+
+      ul{
+        font-size: 18px;
+        justify-content: space-between;
+      }
+      ul li {
+        margin-left: 0;
+      }
+    }
+  }
+}

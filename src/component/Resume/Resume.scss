@@ -1,0 +1,25 @@
+@import '../../style/variables';
+
+.resume{
+
+  &__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  h3{
+    text-align: center;
+  }
+
+  &__item{
+    flex-basis: 50%;
+
+    ul{
+      list-style: inside;
+    }
+
+    @media (max-width: 768px) {
+      flex-basis: 100%;
+    }
+  }
+}

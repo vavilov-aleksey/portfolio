@@ -1,0 +1,70 @@
+@import '../../style/variables';
+
+.portfolio{
+  background-color: $color-bgc;
+
+  h2{
+    color: white;
+  }
+
+  &__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+  &__item{
+    flex-basis: 33.33333333%;
+    color: $color-accent;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+
+    img{
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border: 1px solid black;
+    }
+
+    a{
+      display: flex;
+      color: $color-accent;
+      text-decoration: none;
+      align-items: center;
+
+      & > div{
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+      }
+
+      &:hover{
+        transform: translateX(5px);
+      }
+    }
+
+
+    @media ($tablet) {
+      flex-basis: 50%;
+    }
+
+    @media ($mobile) {
+      flex-basis: 100%;
+    }
+  }
+
+  &__wrapper-link{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+  }
+
+  &__svg{
+    width: 30px;
+    height: 30px;
+    fill: $color-accent;
+  }
+}

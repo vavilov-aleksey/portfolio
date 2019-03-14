@@ -1,0 +1,14 @@
+.resume__wrapper {
+  display: flex;
+  flex-wrap: wrap; }
+.resume h3 {
+  text-align: center; }
+.resume__item {
+  flex-basis: 50%; }
+  .resume__item ul {
+    list-style: inside; }
+  @media (max-width: 768px) {
+    .resume__item {
+      flex-basis: 100%; } }
+
+/*# sourceMappingURL=Resume.css.map */

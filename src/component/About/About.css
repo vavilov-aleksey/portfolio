@@ -1,0 +1,14 @@
+.about img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: 25px auto; }
+.about__desc {
+  text-align: center; }
+@media (max-width: 480px) {
+  .about img {
+    width: 160px;
+    height: 160px; } }
+
+/*# sourceMappingURL=About.css.map */
