@@ -1,6 +1,7 @@
 import learn from '../images/learn.png';
 import artifact from '../images/artifact.png';
 import timetreker from '../images/timetreker.png';
+import portfolio from '../images/portfolio.png';
 
 export default [
   {
@@ -22,7 +23,7 @@ export default [
   },
   {
     text: 'Сайт портфолио',
-    img: '',
-    hrefGithub: ''
+    img: portfolio,
+    hrefGithub: 'https://github.com/vavilov-aleksey/portfolio'
   }
 ]

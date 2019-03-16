@@ -11,6 +11,7 @@
 body, html {
   scroll-behavior: smooth;
   line-height: 1.65;
+  letter-spacing: 1px;
   font-family: Neucha, cursive;
   font-size: 20px;
   min-width: 320px; }

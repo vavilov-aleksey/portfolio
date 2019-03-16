@@ -7,22 +7,17 @@ export default class Resume extends Component {
     return (
       <section className='resume' id='resume'>
         <div className="container">
-          <h2>РЕЗЮМЕ</h2>
+          <h2>ЗНАНИЯ И УМЕНИЯ</h2>
           <div className="resume__wrapper">
-            {resumeData.map((item, id) => {
-              return(
-                <div className="resume__item" key={id}>
-                  <h3>{item.title}</h3>
-                  <ul>
-                    {item.arrItem.map((li, id) => {
-                      return(
-                        <li key={id}>{li}</li>
-                      )
-                    })}
-                  </ul>
-                </div>
-              )
-            })}
+            <div className="resume__item">
+              <ul>
+                {resumeData.map((li, id) => {
+                  return(
+                    <li key={id}>{li}</li>
+                  )
+                })}
+              </ul>
+            </div>
           </div>
         </div>
       </section>

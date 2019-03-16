@@ -10,15 +10,12 @@ export default class About extends Component {
           <h2>ОБО МНЕ</h2>
           <img src={ava} alt=""/>
           <div className="about__desc">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis deleniti dolores ducimus ex, fuga minus
-            natus quae ratione sequi vel! Accusamus amet cumque cupiditate eum, expedita fugiat libero maxime mollitia
-            natus non officia omnis quidem quo ratione recusandae repellat repudiandae sequi similique soluta suscipit
-            unde velit vero, voluptate! Accusantium aperiam asperiores assumenda at commodi, consequatur deleniti,
-            ducimus eum explicabo libero magni nesciunt nisi numquam, odio quam quidem quis quisquam quos reprehenderit
-            voluptas. Ab ad dolore ducimus, eligendi expedita mollitia officia quo. Aliquam, dolor, ut? A accusantium
-            atque, corporis deleniti ea esse, ex explicabo harum hic incidunt ipsum iste labore maxime mollitia numquam
-            omnis pariatur praesentium rem saepe sed totam ut vero voluptas. Dolore hic inventore ipsam placeat
-            praesentium quis voluptates?
+            Привет! <br/>
+            Меня зовут Алексей. Занимаюсь WEB разработкой сайтов 2 года, в основном Frontend. <br/>
+            Основную часть своего рабочего времени верстаю сайты с Psd макетов. Хорошо знаком с Photoshop, Figma, Zeplin. <br/>
+            Постоянно изучаю новые технологии, открываю для себя интересные библиотеки и фреймворки. <br/>
+            Заинтересован в развитии и изучении Frontend направления. <br/>
+            В настоящее время активно изучаю документацию и практикую React.js.
           </div>
         </div>
       </section>

@@ -1,14 +1,27 @@
 .resume__wrapper {
   display: flex;
-  flex-wrap: wrap; }
-.resume h3 {
-  text-align: center; }
-.resume__item {
-  flex-basis: 50%; }
-  .resume__item ul {
-    list-style: inside; }
-  @media (max-width: 768px) {
-    .resume__item {
-      flex-basis: 100%; } }
+  flex-wrap: wrap;
+  justify-content: center; }
+.resume__item ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 320px; }
+.resume__item ul li {
+  padding-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 5px;
+  position: relative; }
+  .resume__item ul li:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 3px;
+    display: flex;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: black;
+    transform: translateY(-50%); }
 
 /*# sourceMappingURL=Resume.css.map */

@@ -1,21 +1,12 @@
 export default [
-  {
-    title: 'ЗНАНИЯ И УМЕНИЯ',
-    arrItem: [
-      'Хорошее знание HTML,CSS,JS',
-      'Фреймворк Bootstrap v3, v4',
-      'Препроцессор CSS - Sass (Scss)',
-      'Шаблонизатор Jade(Pug)',
-      'Сборщик проектов Gulp',
-      'Владение git',
-    ]
-  },
-  {
-    title: 'НАВЫКИ',
-    arrItem: [
-      'Чистый и аккуратный код',
-      'Адаптивная, кроссбраузерная, валидная верстка',
-      'Сборка проекта в gulp, все css и js файлы минимизированы',
-    ]
-  },
+  'Хорошее знание HTML,CSS,JS',
+  'Bootstrap v3, v4',
+  'Jade(Pug)',
+  'БЕМ',
+  'Sass (Scss)',
+  'SMACSS',
+  'Gulp / Webpack',
+  'Git',
+  'React/Redux',
+  'React Router'
 ];
