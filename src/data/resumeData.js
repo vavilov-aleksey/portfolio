@@ -3,9 +3,9 @@ export default [
   'Bootstrap v3, v4',
   'Jade(Pug)',
   'БЕМ',
-  'Sass (Scss)',
+  'Sass(Scss)',
   'SMACSS',
-  'Gulp / Webpack',
+  'Gulp/Webpack',
   'Git',
   'React/Redux',
   'React Router'
