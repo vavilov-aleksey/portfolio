@@ -6,7 +6,7 @@ export default class Footer extends Component {
     return (
       <footer className='footer'>
         <div className="container">
-          &#9400;2019. Aleksey Vavilov
+          &#9400;2017. Aleksey Vavilov
         </div>
       </footer>
     );
